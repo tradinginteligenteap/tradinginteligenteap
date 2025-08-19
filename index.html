@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>LeidyBot1 - Trading Inteligente</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous">
+
+    <!-- Bootstrap (CSS only for layout) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Local styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- PDF & Signature libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark nav-gold sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <!-- Logo placeholder: reemplaza images/logo.png por tu logo -->
+      <img src="images/logo.png" alt="Logo Trading Inteligente" id="siteLogo" class="logo-img me-3">
+      <div>
+        <div class="brand-title">Trading <span class="text-gold">Inteligente</span></div>
+        <small class="brand-sub">LeidyBot1 • WilliBot1</small>
+      </div>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#bots">Robots</a></li>
+        <li class="nav-item"><a class="nav-link" href="#results">Resultados</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contract">Contrato</a></li>
+        <li class="nav-item ms-3"><a class="btn btn-cta" href="#pricing">Comprar Ahora</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero-section">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold">DOMINA EL MERCADO CON <span class="text-gold">INTELIGENCIA</span></h1>
+    <p class="lead text-muted">Robots para MetaTrader 5 centrados en calidad, gestión de riesgo y resultados sostenibles</p>
+    <div class="d-flex justify-content-center gap-3 mt-3">
+      <a href="#pricing" class="btn btn-cta btn-lg">Comprar Ahora</a>
+      <a href="#bots" class="btn btn-outline-light btn-lg">Ver Robots</a>
+    </div>
+  </div>
+</header>
+
+<!-- ROBOTS (multimedia integrada por robot) -->
+<section id="bots" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold text-gold">Nuestros Robots</h2>
+      <p class="text-muted">Selecciona el robot que mejor se adapte a tu perfil</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- LeidyBot1 -->
+      <div class="col-lg-6">
+        <div class="card product-card h-100">
+          <div class="row g-0 align-items-stretch">
+            <div class="col-md-6 product-media p-3">
+              <div class="ratio ratio-16x9 mb-3">
+                <!-- iframe de demo (reemplaza por tu video real) -->
+                <iframe src="https://www.youtube.com/embed/TU_VIDEO_LEIDY" title="LeidyBot1 demo" allowfullscreen></iframe>
+              </div>
+              <div class="d-flex gap-2 gallery-thumb">
+                <img src="images/leidy1.jpg" class="img-thumb" alt="Leidy1">
+                <img src="images/leidy2.jpg" class="img-thumb" alt="Leidy2">
+                <img src="images/leidy3.jpg" class="img-thumb" alt="Leidy3">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body d-flex flex-column">
+                <h3 class="text-gold">LeidyBot1 <span class="badge bg-success ms-2">Disponible</span></h3>
+
+                <!-- Texto exacto solicitado -->
+                <div class="robot-description small mb-3">
+                  <p>🚀 ¡INVIERTE CON INTELIGENCIA: EL ROBOT QUE PRIORIZA CALIDAD SOBRE CANTIDAD! 🚀</p>
+                  <p>¿Buscas un crecimiento real y sostenido en el trading, sin operaciones innecesarias ni estrés? Leydi Bot 1 no es un robot más: es un sistema disciplinado que solo actúa cuando las oportunidades son claras, protegiendo tu capital y maximizando ganancias a mediano y largo plazo.</p>
+                  <p><strong>📊 RESULTADOS REALES (ENERO - AGOSTO 2025)</strong><br>
+                    ✅ Prueba 1: $50 → $1,100 (🔥 +2,100% de rentabilidad en 8 meses).<br>
+                    ✅ Prueba 2: $250 → $4,500 (🚀 +1,700% de crecimiento).</p>
+                  <p><strong>💰 OFERTA DE LANZAMIENTO</strong><br>
+                    🔥 Precio normal: $350 → <strong class="text-gold">$260</strong> (OFF por tiempo limitado).</p>
+                </div>
+
+                <div class="mt-auto d-flex gap-2">
+                  <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#checkoutModal" data-product="LeidyBot1" data-price="260">
+                    <i class="fas fa-shopping-cart me-1"></i> Comprar
+                  </button>
+                  <a href="#results" class="btn btn-ghost">Ver Resultados</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WilliBot1 -->
+      <div class="col-lg-6">
+        <div class="card product-card h-100">
+          <div class="row g-0 align-items-stretch">
+            <div class="col-md-6 product-media p-3">
+              <div class="ratio ratio-16x9 mb-3">
+                <iframe src="https://www.youtube.com/embed/TU_VIDEO_WILLI" title="WilliBot1 demo" allowfullscreen></iframe>
+              </div>
+              <div class="d-flex gap-2 gallery-thumb">
+                <img src="images/willi1.jpg" class="img-thumb" alt="Willi1">
+                <img src="images/willi2.jpg" class="img-thumb" alt="Willi2">
+                <img src="images/willi3.jpg" class="img-thumb" alt="Willi3">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body d-flex flex-column">
+                <h3 class="text-gold">WilliBot1 <span class="badge bg-warning text-dark ms-2">Preventa</span></h3>
+                <p class="small mb-2">Revolucionario EA con capacidad de aprendizaje automático que analiza el mercado en tiempo real, se autocorrige y genera sus propias estrategias.</p>
+                <ul class="small mb-3">
+                  <li>IA adaptativa</li>
+                  <li>Autocorrección y mejora continua</li>
+                  <li>Detección de trampas del mercado</li>
+                </ul>
+                <div class="mt-auto d-flex gap-2">
+                  <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#waitlistModal">
+                    <i class="fas fa-envelope me-1"></i> Lista de Espera
+                  </button>
+                  <a class="btn btn-ghost" href="#testimonials">Ver Testimonios</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End WilliBot1 -->
+
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS: atribuidos a LeidyBot1 -->
+<section id="results" class="py-5 bg-soft">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">📊 RESULTADOS REALES (ENERO - AGOSTO 2025)</h2>
+      <p class="text-muted">Resultados de <strong>LeidyBot1</strong> en pruebas controladas</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-5">
+        <div class="result-card p-4">
+          <h4 class="text-gold">Prueba 1 — LeidyBot1</h4>
+          <h1 class="display-5 fw-bold">$50 → $1,100</h1>
+          <p class="text-success">🔥 +2,100% en 8 meses</p>
+          <p class="small text-muted">Cuenta demo - modo conservador</p>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="result-card p-4">
+          <h4 class="text-gold">Prueba 2 — LeidyBot1</h4>
+          <h1 class="display-5 fw-bold">$250 → $4,500</h1>
+          <p class="text-success">🚀 +1,700% en 8 meses</p>
+          <p class="small text-muted">Cuenta real - configuración estándar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold text-gold">Testimonios</h2>
+      <p class="text-muted">Lo que dicen nuestros usuarios</p>
+    </div>
+
+    <div id="testimonialsCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-inner" id="testimonialInner"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <form id="testimonialForm" class="card p-4">
+          <h5 class="mb-3">Deja tu testimonio</h5>
+          <input id="testName" class="form-control mb-2" placeholder="Tu nombre" required>
+          <textarea id="testMessage" class="form-control mb-2" rows="3" placeholder="Tu testimonio" required></textarea>
+          <div class="text-end">
+            <button class="btn btn-gold" type="submit">Enviar Testimonio</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card p-4">
+          <h5>Únete al grupo</h5>
+          <p class="small text-muted mb-2">Accede a resultados, soporte y guías exclusivas en nuestro grupo de Telegram.</p>
+          <a href="#" class="btn btn-outline-gold">Unirme al Grupo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="py-5 bg-soft">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Precios y Planes</h2>
+      <p class="text-muted">Promociones por tiempo limitado</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-5">
+        <div class="card pricing-card p-4 text-center">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="mb-0">LeidyBot1</h4>
+            <span class="badge bg-gold text-dark">Oferta</span>
+          </div>
+          <div class="price-block mb-3">
+            <div class="small text-muted">Precio normal</div>
+            <div><s>$350</s></div>
+            <h2 class="fw-bold text-gold">$260 <small class="text-muted fw-light">/único</small></h2>
+            <div class="small text-muted">Promoción limitada</div>
+          </div>
+
+          <ul class="mb-3 small text-start mx-auto" style="max-width:360px;">
+            <li>Licencia perpetua</li>
+            <li>Guía de instalación</li>
+            <li>Soporte prioritario 3 meses</li>
+            <li>Acceso al grupo privado</li>
+          </ul>
+
+          <div class="d-grid">
+            <button class="btn btn-gold btn-lg" data-bs-toggle="modal" data-bs-target="#checkoutModal" data-product="LeidyBot1" data-price="260">
+              <i class="fas fa-shopping-cart me-1"></i> Comprar LeidyBot1
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="card pricing-card p-4 text-center">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="mb-0">WilliBot1 (Preventa)</h4>
+            <span class="badge bg-warning text-dark">Preventa</span>
+          </div>
+          <div class="price-block mb-3">
+            <h2 class="fw-bold text-gold">$499 <small class="text-muted fw-light">/único</small></h2>
+            <div class="small text-muted">Acceso Beta + Soporte VIP</div>
+          </div>
+          <ul class="mb-3 small text-start mx-auto" style="max-width:360px;">
+            <li>Acceso anticipado</li>
+            <li>Sesión personalizada</li>
+            <li>Soporte VIP</li>
+          </ul>
+          <div class="d-grid">
+            <button class="btn btn-outline-gold" data-bs-toggle="modal" data-bs-target="#waitlistModal">
+              Reservar WilliBot1
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <div class="note small text-muted">Precio normal de LeidyBot1: $350. Descuento válido por tiempo limitado.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTRACT (white background, black text) -->
+<section id="contract" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Contrato Legal</h2>
+      <p class="text-muted">Lee y descarga el contrato antes de comprar</p>
+    </div>
+
+    <div class="card contract-white p-4">
+      <div class="contract-inner">
+        <h4>1. OBJETO DEL CONTRATO</h4>
+        <p>TRADING INTELIGENTE, en adelante "EL VENDEDOR", celebra el presente contrato de licencia de software con EL COMPRADOR, quien declara haber proporcionado información veraz en el formulario de compra.</p>
+
+        <h5>3.5 Garantías de Funcionamiento</h5>
+        <ul>
+          <li>Opera exclusivamente cuando se cumplen los parámetros predefinidos.</li>
+          <li>Puede permanecer inactivo por largos períodos cuando detecta riesgo.</li>
+          <li>Implementa trailing stop dinámico y stop loss ajustado a volatilidad.</li>
+        </ul>
+
+        <h5>7. Datos del Comprador</h5>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Nombre Completo</label>
+            <input id="contractName" class="form-control" placeholder="Nombre completo">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Número de Identificación</label>
+            <input id="contractId" class="form-control" placeholder="Número de identificación">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Teléfono</label>
+            <input id="contractPhone" class="form-control" placeholder="Teléfono">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Dirección</label>
+            <input id="contractAddress" class="form-control" placeholder="Dirección completa">
+          </div>
+          <div class="col-12">
+            <label class="form-label">Ciudad/País</label>
+            <input id="contractCity" class="form-control" placeholder="Ciudad / País">
+          </div>
+        </div>
+
+        <div class="form-check mt-3">
+          <input id="agreeContract" class="form-check-input" type="checkbox">
+          <label class="form-check-label">Acepto los términos del contrato</label>
+        </div>
+
+        <div class="row mt-3 g-3 align-items-center">
+          <div class="col-md-6">
+            <label class="form-label">Firma del Comprador</label>
+            <div class="signature-pad bg-light p-2">
+              <canvas id="signatureCanvas" width="600" height="150" style="border:1px dashed #ccc;"></canvas>
+              <div class="mt-2 d-flex gap-2">
+                <button id="clearSignature" class="btn btn-sm btn-outline-secondary">Limpiar</button>
+                <button id="downloadContractBtn" class="btn btn-sm btn-gold ms-auto">Descargar Contrato (PDF)</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Fecha de Aceptación</label>
+            <input id="contractDate" class="form-control" readonly>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHECKOUT MODAL (PAYMENT) -->
+<div class="modal fade" id="checkoutModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-gold">Proceso de Compra</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <h6>Producto: <span id="modalProductName">LeidyBot1</span></h6>
+            <h6>Precio: <span id="modalProductPrice" class="text-gold">$260</span></h6>
+
+            <form id="paymentForm">
+              <div class="mb-2">
+                <input id="userName" class="form-control" placeholder="Nombre completo" required>
+              </div>
+              <div class="mb-2">
+                <input id="userEmail" type="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="mb-2">
+                <input id="userPhone" class="form-control" placeholder="Teléfono">
+              </div>
+              <div class="form-check mb-2">
+                <input id="agreeTermsModal" class="form-check-input" type="checkbox">
+                <label class="form-check-label">Acepto el <a href="#contract" class="text-gold">contrato de compra</a></label>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-6">
+            <div class="payment-methods p-3">
+              <h6 class="text-gold">Método de Pago</h6>
+
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="radio" name="paymentMethod" id="paypalMethod" value="paypal" checked>
+                <label class="form-check-label" for="paypalMethod"><i class="fab fa-paypal me-2"></i> PayPal</label>
+              </div>
+
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="radio" name="paymentMethod" id="bankMethod" value="bank">
+                <label class="form-check-label" for="bankMethod"><i class="fas fa-university me-2"></i> Transferencia Bancaria</label>
+              </div>
+
+              <div id="paypalInfo" class="payment-info mt-3">
+                <div class="small text-muted">Para pagar con PayPal, usa la cuenta:</div>
+                <div class="fw-bold text-gold fs-5 mb-2">@williarvi</div>
+                <div class="d-flex gap-2">
+                  <button id="copyPaypal" class="btn btn-outline-secondary btn-sm"><i class="fas fa-copy me-1"></i> Copiar cuenta</button>
+                  <button id="paypalBtn" class="btn btn-gold btn-sm ms-auto"><i class="fab fa-paypal me-1"></i> Pagar con PayPal</button>
+                </div>
+                <div class="small text-muted mt-2">Al hacer clic se generarán factura y contrato (PDF) y luego serás redirigido a PayPal.</div>
+              </div>
+
+              <div id="bankInfo" class="payment-info mt-3" style="display:none;">
+                <div class="small text-muted">Realiza la transferencia a nuestra cuenta NU (envía comprobante):</div>
+                <div class="account-box text-center my-3 p-2">
+                  <div class="small">Cuenta de Ahorros NU</div>
+                  <div class="fw-bold text-gold fs-4">@WAV687</div>
+                </div>
+                <div class="d-flex gap-2">
+                  <button id="copyBankKey" class="btn btn-outline-secondary btn-sm"><i class="fas fa-copy me-1"></i> Copiar llave</button>
+                  <button id="confirmBankPayment" class="btn btn-gold btn-sm ms-auto"><i class="fas fa-check-circle me-1"></i> Confirmar Pago (Descargar documentos)</button>
+                </div>
+                <div class="small text-muted mt-2">Al confirmar se descargarán factura y contrato (PDF).</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WAITLIST MODAL -->
+<div class="modal fade" id="waitlistModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-gold">Lista de Espera - WilliBot1</h5>
+        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form id="waitlistForm">
+          <input id="waitlistName" class="form-control mb-2" placeholder="Nombre">
+          <input id="waitlistEmail" class="form-control mb-2" placeholder="Email" type="email">
+          <input id="waitlistPhone" class="form-control mb-2" placeholder="WhatsApp">
+          <div class="form-check mb-2">
+            <input id="waitlistUpdates" class="form-check-input" type="checkbox">
+            <label class="form-check-label">Quiero recibir actualizaciones</label>
+          </div>
+          <button class="btn btn-gold w-100" type="submit">Unirme</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT / FOOTER -->
+<footer class="py-4 footer-dark">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="mb-2"><strong>Trading Inteligente</strong> © 2025</div>
+        <div class="small text-muted">Email: tradinginteligenteap@gmail.com &nbsp;|&nbsp; WhatsApp: +57 3506194991 &nbsp;|&nbsp; PayPal: @williarvi</div>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="#" class="me-3 text-muted"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="me-3 text-muted"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:tradinginteligenteap@gmail.com" class="text-muted"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Local script -->
+<script src="script.js"></script>
+
+</body>
+</html>
